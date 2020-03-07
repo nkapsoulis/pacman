@@ -25,7 +25,7 @@ public class Data {
 	  /* Load level */
 	  char[][] LevelInCharArray = null;
 		try {
-			LevelInCharArray = new ReadTextFile("/bin/levels/level"+String.valueOf(level)+".txt").getFileInChars();
+			LevelInCharArray = new ReadTextFile("/levels/level"+String.valueOf(level)+".txt").getFileInChars();
 		} catch (IOException e) {e.printStackTrace();}
 	   /* System.out.println("Print current level:");
 		for (int i=0;i<LevelInCharArray.length;i++) {
