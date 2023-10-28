@@ -1,6 +1,8 @@
-# Prerequisites
-### Java
-In a linux environment install Java:
+# Pacman
+The classic `Pacman` game; based on https://github.com/dtschust/javapacman/.
+
+## Install Java
+In a Linux environment install Java:
 
 ```
 sudo apt update
@@ -8,11 +10,12 @@ sudo apt install default-jre
 sudo apt install default-jdk
 ```
 
-# How to run Pacman
-Run linux.sh in a linux bash environment to automatically compile and run Pacman:
+## Run the game
+Run linux.sh in a Linux bash environment to automatically compile and run Pacman:
 
 ```
-cd Pacman/
+git clone https://github.com/nkapsoulis/pacman.git
+cd pacman/
 chmod u+x linux.sh
 ./linux.sh
 ```
